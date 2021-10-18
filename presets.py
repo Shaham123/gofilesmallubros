@@ -6,6 +6,7 @@ class Presets(object):
     ASK_PM_TEXT = "<b>Click the below button</b>"
     WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>I can help you getting movies from</code> <a href='https://t.me/malllumoviesgroups'> 🎥【﻿മല്ലു】𝕎𝕖𝕓²·⁰🎥</a> " \
                    "©ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:<a href='https://t.me/ivar_bonel'>₲Ø₭Ʉ ₴Ø₦</a>" \
+
                    "<b>My code can be seen 😇: </b><a href='https://t.me/biriyanikadaaa/4'> HERE</a>"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
     MSG_FOR_PIN = "<b>For getting medias from here..</b>\n\n🔛 <code>Please start</code> @{} <code>in PM\n\n" \
