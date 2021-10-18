@@ -4,7 +4,7 @@ class Presets(object):
     CAPTION_TEXT_DOC = "\n\n<b>File Name:</b> {}\n\n<b>Format:</b> {}\n<b>Size:</b> {}"
     CAPTION_TEXT_VID = "\n\n<b>File Name:</b> {}\n\n<b>Size:</b> {}"
     ASK_PM_TEXT = "<b>Click the below button</b>"
-    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>for movies✨</code><a href='https://t.me/malllumoviesgroups'>【﻿മല്ലു】𝕎𝕖𝕓²·⁰🎥</a> " \
+    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>for movies✨✨</code><a href='https://t.me/malllumoviesgroups'>【﻿മല്ലു】𝕎𝕖𝕓²·⁰🎥</a> " \
                    "©ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:@ivar_bonel" \
                    "<b>My code can be seen 😇: </b><a href='https://t.me/biriyanikadaaa/4'> HERE</a>"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
