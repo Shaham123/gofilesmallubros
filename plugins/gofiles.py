@@ -57,7 +57,18 @@ async def query_mgs(client: Bot, message: Message):
                                          ]
                                     ])
                             )
-                            return
+                            await client.send_message(
+                                chat_id=message.chat.id,
+                                text=presets.Welcome_TEXT,
+                                reply_to_message_id=message.message_id,
+                                reply_markup=InlineKeyboardMarkup(
+                                    [
+                                        [InlineKeyboardButton(
+                                            "DEV", url="https://t.me/@ivar_bonel")
+                                         ]
+                                    ])
+                            )
+                           return
                         media_name = messages.document.file_name.rsplit('.', 1)[0]
                         media_format = messages.document.file_name.split('.')[-1]
                         try:
