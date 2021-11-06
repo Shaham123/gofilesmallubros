@@ -153,14 +153,4 @@ async def query_mgs(client: Bot, message: Message):
                 )
             except Exception:
                 pass
-                        await client.send_message(
-                                chat_id=message.chat.id,
-                                text=presets.Welcome_TEXT,
-                                reply_to_message_id=message.message_id,
-                                reply_markup=InlineKeyboardMarkup(
-                                    [
-                                        [InlineKeyboardButton(
-                                            "DEV", url="https://t.me/@ivar_bonel")
-                                         ]
-                                    ])
-                            )
+                        
